@@ -2942,7 +2942,7 @@ input, select, textarea {
 
 			.gallery a img {
 				display: block;
-				height: 11vw;
+				/*height: 11vw;*/
 				/*min-height: 16rem;*/
 				object-fit: cover;
 				object-position: center;
@@ -2953,9 +2953,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
-				.gallery a.landscape img {
+				/*.gallery a.landscape img {
 					height: 24vw;
-				}
+				}*/
 
 			.gallery a.portrait img {
 				height: 30vw;
@@ -3091,13 +3091,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 1152px) {
 
-			.gallery a img {
-				height: 20rem;
-			}
+			/*.gallery a img {
+				height: 10rem;
+			}*/
 
-			.gallery a.landscape img {
-				height: 25rem;
-			}
+			/*.gallery a.landscape img {
+				height: 20rem;
+			}*/
 
 			.gallery a.portrait img {
 				height: 25rem;
@@ -3138,7 +3138,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.gallery a img {
-				height: 12rem;
+				height: 6rem;
 				min-height: 0;
 			}
 
