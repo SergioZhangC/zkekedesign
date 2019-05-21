@@ -2938,6 +2938,7 @@ input, select, textarea {
 			outline: 0;
 			position: relative;
 			width: calc(50% - 1.25rem);
+			box-shadow: 0 2px 15px 0 #DCB32A;
 		}
 
 			.gallery a img {
@@ -3121,13 +3122,13 @@ input, select, textarea {
 					width: calc(50% - 0.625rem);
 				}
 
-					.gallery a img {
+					/*.gallery a img {
 						height: 20rem;
-					}
+					}*/
 
-					.gallery a.landscape img {
+					/*.gallery a.landscape img {
 						height: 20rem;
-					}
+					}*/
 
 					.gallery a.portrait img {
 						height: 30rem;
@@ -3137,14 +3138,14 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			.gallery a img {
+			/*.gallery a img {
 				height: 6rem;
 				min-height: 0;
-			}
+			}*/
 
-			.gallery a.landscape img {
+			/*.gallery a.landscape img {
 				height: 12rem;
-			}
+			}*/
 
 			.gallery a.portrait img {
 				height: 14rem;
